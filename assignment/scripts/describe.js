@@ -133,10 +133,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// Value of colorOne should be 'blue', and colorTwo should be 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// Both the values of colorOne and colorTwo should be set to purple, not just colorOne
+// The code block should read:
+// if (mix === true) {
+// colorOne = 'purple';
+// colorTwo = 'purple';
+//}
 if (mix === true) {
   colorOne = 'purple';
 }
