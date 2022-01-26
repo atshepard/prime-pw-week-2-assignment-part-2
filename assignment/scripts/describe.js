@@ -76,7 +76,7 @@ console.log(secret)
 // Then it checks if isStudent is false or age is under 30, in which case it logs 'What are your hobbies?'
 // Then if neither of the above conditions are met, then we check if isStudent is true, and if so log 'Welcome to Prime' to the console.
 // If none of the above conditions are met, the console will log 'How about the weather?'
-// With our current values, when the code is run we will see 'Welcome to Prime' log to the console.
+// With our current values, when the code is run we will see 'Welcome to Prime!' log to the console.
 
 //CODE
 /*
@@ -134,17 +134,19 @@ if (number >= 2) {
 
 /*
 
-// Value of colorOne should be 'blue', and colorTwo should be 'red'
+// FIX-- Value of colorOne should be 'blue', and colorTwo should be 'red'
 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-// Both the values of colorOne and colorTwo should be set to purple, not just colorOne
+
+// FIX-- Both the values of colorOne and colorTwo should be set to purple, not just colorOne
 // The code block should read:
 // if (mix === true) {
 // colorOne = 'purple';
 // colorTwo = 'purple';
-//}
+// }
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -156,7 +158,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+const time = 4; // FIX -- use let instead of const if time will change - const variables cannot be updated later.
+
+// FIX -- current statement uses OR conditional and instead should read
+// if (temp > 39 && time >= 4)
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -170,7 +175,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX -- current conditional statement checks if minAge is less than or equal to age.
+// correct statement should be if(age >= minAge) ..etc.
 if(minAge <= age) {
   console.log('no entry');
 } else {
