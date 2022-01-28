@@ -134,18 +134,18 @@ if (number >= 2) {
 
 /*
 
-// FIX-- Value of colorOne should be 'blue', and colorTwo should be 'red'.
+FIX-- Value of colorOne should be 'blue', and colorTwo should be 'red'.
 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX-- Both the values of colorOne and colorTwo should be set to purple.
-// The code block should read:
-// if (mix === true) {
-// colorOne = 'purple';
-// colorTwo = 'purple';
-// }
+FIX-- Both the values of colorOne and colorTwo should be set to purple.
+The code block should read:
+if (mix === true) {
+colorOne = 'purple';
+colorTwo = 'purple';
+}
 
 if (mix === true) {
   colorOne = 'purple';
@@ -176,16 +176,16 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX -- current conditional statement checks if minAge is less than or equal to age,
-// instead of checking if age is greater than or equal to minAge - the logic is reversed.
-// The conditional statement should read if(age >= minAge) to satisfy the description
+/* FIX -- current conditional statement checks if minAge is less than or equal to age,
+instead of checking if age is greater than or equal to minAge - the logic is reversed.
+The conditional statement should read if(age >= minAge) to satisfy the description */
 
-// FIX -- because of the logic error in the conditional, now the output is also incorrect.
-// Using the corrected code from above, we should now adjust the output to the following:
-// if(age >= minAge) {
-// console.log('enter')
-//}
-// Additionally, the description does not call for an 'else' statement, so that can be removed. 
+/* FIX -- because of the logic error in the conditional, now the output is also incorrect.
+Using the corrected code from above, we should now adjust the output to the following:
+if(age >= minAge) {
+console.log('enter')
+}
+ Additionally, the description does not call for an 'else' statement, so that can be removed.
 
 if(minAge <= age) {
   console.log('no entry');
